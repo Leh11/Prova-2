@@ -1,6 +1,6 @@
 # Prova-2
 
-# Classe AppUso:
+## Classe AppUso:
   tem opcao para gerente fazer login e maneger sistema de acordo com as opcoes disponiveis.
   Aqui fica a funcão main e obtem a instancia do sistema atraves de padrao "Singleton";
   
