@@ -11,20 +11,20 @@ tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton"
     - adicionarEmpregado: adiciona empregado especificando se é gerente;  
                         se empregado normal especifica tipo (horista, assalariado, comissionado0);  
                         
-    removerEmpregado: remover empregado atravez de ID unico;
+    - removerEmpregado: remover empregado atravez de ID unico;
     
-    lancarCartaoPonto: recebe um ID e seta a hora da entra ou saida na ListCartao deste;
+    - lancarCartaoPonto: recebe um ID e seta a hora da entra ou saida na ListCartao deste;
+     
+    - lancarResultadoVenda: recebe um ID e adicionado a List de venda e tambem List associado ao empregado;
     
-    lancarResultadoVenda: recebe um ID e adicionado a List de venda e tambem List associado ao empregado;
+    - lancarTaxa: este a associa taxa de servico ao empregado atravez de ID;
     
-    lancarTaxa: este a associa taxa de servico ao empregado atravez de ID;
+    - alterarDetalhes: recebe o ID e altera os atributos necessariso;
     
-    alterarDetalhes: recebe o ID e altera os atributos necessariso;
-    
-    rodarFolha: é rodada folha de pagamento filtrando todos os empregados atravez dos metidos de pagamento escolhido. Isso         acontece todos os dia. Ao rodar folha levamos em consideracao as horas extras, as taxas e serem deduzidas...
+    - rodarFolha: é rodada folha de pagamento filtrando todos os empregados atravez dos metidos de pagamento escolhido. Isso         acontece todos os dia. Ao rodar folha levamos em consideracao as horas extras, as taxas e serem deduzidas...
     
     
-    criarNovaAgenda: quando necessario;
+    - criarNovaAgenda: quando necessario;
    
    
 ## Classe Pessoa:  
