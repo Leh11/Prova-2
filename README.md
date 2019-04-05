@@ -5,7 +5,7 @@
   Aqui fica a funcão main e obtem a instancia do sistema atraves de padrao "Singleton";
   
   
-# Classe Sistema:
+## Classe Sistema:
 tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton";  
   - Métodos:  
     - adicionarEmpregado: adiciona empregado especificando se é gerente;  
@@ -44,23 +44,23 @@ tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton"
    - usuario;  
    - senha;  
                     
-### Classe Endereço:  
+## Classe Endereço:  
     contem 
    - rua;  
    - cep;  
    - nCasa;  
            
 //A partir daqui implementei o padrão Abstract Factory para cria classes sem especificar a classe concreta;            
-### Classe CriaFuncionario:  
+## Classe CriaFuncionario:  
     responsavel pelo assinatura dos método:  
       - criarFuncionario;  
      
    // Esta classe retorna uma classe criada atravez de Abstract Factory  
-### Classe CriaFuncionarioNormal  
+## Classe CriaFuncionarioNormal  
     que herda CriaFuncionario e implementa o metodo:  
       - criarFuncionario e returna um tipo Pessoa;  
     
    //Esta classe herda Classe CriaFuncionario e retorna um tipo pessoa  
-### classe criaGerente:  
+## Classe criaGerente:  
       - criarFuncionario e retorna um tipo pessoa;  
       
