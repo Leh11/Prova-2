@@ -28,14 +28,14 @@ tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton"
    
    
 ## Classe Pessoa:  
-    atributos;  
-    nome;  
-    id;  
-    endereco;  
-    tipo;  
-    salario;  
+   - atributos;  
+   - nome;  
+   - id;  
+   - endereco;  
+   - tipo;  
+   - salario;  
     
-# Herança Classe:  
+### Herança Classe:  
       ### Comissiona;  
       ### Asslariado;  
       ### Horista;  
@@ -44,21 +44,22 @@ tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton"
           usuario;  
           senha;  
                     
-# Classe Endereço:  
+### Classe Endereço:  
     contem rua;  
            cep;  
            nCasa;  
            
 //A partir daqui implementei o padrão Abstract Factory para cria classes sem especificar a classe concreta;            
-Classe CriaFuncionario:  
+### Classe CriaFuncionario:  
     responsavel pelo assinatura dos método:  
-      +criarFuncionario;  
+      - criarFuncionario;  
      
    // Esta classe retorna uma classe criada atravez de Abstract Factory  
-    Classe CriaFuncionarioNormal que herda CriaFuncionario e implementa o metodo:  
-      criarFuncionario e returna um tipo Pessoa;  
+### Classe CriaFuncionarioNormal  
+    que herda CriaFuncionario e implementa o metodo:  
+      - criarFuncionario e returna um tipo Pessoa;  
     
    //Esta classe herda Classe CriaFuncionario e retorna um tipo pessoa  
-   classe criaGerente:  
-      criarFuncionario e retorna um tipo pessoa;  
+### classe criaGerente:  
+      - criarFuncionario e retorna um tipo pessoa;  
       
