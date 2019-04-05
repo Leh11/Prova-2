@@ -36,18 +36,19 @@ tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton"
    - salario;  
     
 ### Herança Classe:  
-      ### Comissiona;  
-      ### Asslariado;  
-      ### Horista;  
-      ### Gerente://ele é a única pessoa que pode acessar o sistema atravez do usuario e senha;  
-        atributos a mais:  
-          usuario;  
-          senha;  
+   Comissionado;  
+   Asslariado;  
+   Horista;  
+   Gerente://ele é a única pessoa que pode acessar o sistema atravez do usuario e senha;  
+   atributos a mais:  
+   - usuario;  
+   - senha;  
                     
 ### Classe Endereço:  
-    contem rua;  
-           cep;  
-           nCasa;  
+    contem 
+   - rua;  
+   - cep;  
+   - nCasa;  
            
 //A partir daqui implementei o padrão Abstract Factory para cria classes sem especificar a classe concreta;            
 ### Classe CriaFuncionario:  
