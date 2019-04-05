@@ -1,15 +1,15 @@
 # Prova-2
 
-Classe AppUso:
+#Classe AppUso:
   tem opcao para gerente fazer login e maneger sistema de acordo com as opcoes disponiveis.
   Aqui fica a funcão main e obtem a instancia do sistema atraves de padrao "Singleton";
   
   
-Classe Sistema:
-tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton";
-  Métodos:
-    adicionarEmpregado: adiciona empregado especificando se é gerente;
-                        se empregado normal especifica tipo (horista, assalariado, comissionado0);
+#Classe Sistema:
+tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton";  
+  Métodos:  
+    adicionarEmpregado: adiciona empregado especificando se é gerente;  
+                        se empregado normal especifica tipo (horista, assalariado, comissionado0);  
                         
     removerEmpregado: remover empregado atravez de ID unico;
     
