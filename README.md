@@ -6,7 +6,7 @@
   
   
 ## Classe Sistema:
-tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton";  
+Tem um método para obter a instância dessa classe através do padrao "Singleton" que permite fazer uma única instância;  
   - Métodos:  
     - adicionarEmpregado: adiciona empregado especificando se é gerente;  
                         se empregado normal especifica tipo (horista, assalariado, comissionado0);  
@@ -21,14 +21,13 @@ tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton"
     
     - alterarDetalhes: recebe o ID e altera os atributos necessariso;
     
-    - rodarFolha: é rodada folha de pagamento filtrando todos os empregados atravez dos metidos de pagamento escolhido. Isso         acontece todos os dia. Ao rodar folha levamos em consideracao as horas extras, as taxas e serem deduzidas...
-    
+    - rodarFolha: é rodada folha de pagamento filtrando todos os empregados através dos métidos de pagamento escolhido. Isso         acontece todos os dia. Ao rodar folha levamos em consideracao as horas extras, as taxas e serem deduzidas...
     
     - criarNovaAgenda: quando necessario;
    
    
 ## Classe Pessoa:  
-   - atributos;  
+   Atributos;  
    - nome;  
    - id;  
    - endereco;  
@@ -36,26 +35,26 @@ tem um metodo para obter a instancia desse objetco atraves do padrao "Singleton"
    - salario;  
     
 ### Herança Classe:  
-   Comissionado;  
-   Asslariado;  
-   Horista;  
-   Gerente://ele é a única pessoa que pode acessar o sistema atravez do usuario e senha;  
+   #### Comissionado;  
+   #### Asslariado;  
+   #### Horista;  
+   #### Gerente: ele é a única pessoa que pode acessar o sistema atravez do usuario e senha;  
    atributos a mais:  
    - usuario;  
    - senha;  
                     
 ## Classe Endereço:  
-    contem 
+    Atributos 
    - rua;  
    - cep;  
    - nCasa;  
            
-//A partir daqui implementei o padrão Abstract Factory para cria classes sem especificar a classe concreta;            
+A partir daqui implementei o padrão Abstract Factory para cria classes sem especificar a classe concreta;            
 ## Classe CriaFuncionario:  
     responsavel pelo assinatura dos método:  
       - criarFuncionario;  
      
-   // Esta classe retorna uma classe criada atravez de Abstract Factory  
+Esta classe retorna uma classe criada atravez de Abstract Factory  
 ## Classe CriaFuncionarioNormal  
     que herda CriaFuncionario e implementa o metodo:  
       - criarFuncionario e returna um tipo Pessoa;  
