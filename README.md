@@ -9,7 +9,7 @@
   Serve simplesmente como interface entre usuário e sistema.  
   
   ##### Vantagem  
-  Ajudanos a manipular o sistema com mais facilidade.  
+  Ajuda-nos a manipular o sistema com mais facilidade.  
   
   
 ## Classe Sistema:  
