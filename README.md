@@ -58,7 +58,7 @@
    Permite que as informações do tipo de funcionário comissionado seja manipulada unicamente para esta classe.  
      
    ##### Solução  
-   Soluciona problema de agrupamento dos métodos específicos na superclasse, pois cada tipo tem a sua que algumas coisas de vem ser feita.
+   Soluciona problema de agrupamento dos métodos específicos na superclasse, pois cada tipo tem algumas coisas de vem ser feita do jeito unico.
    
    ##### Vantagem  
    Melhor organização do código;
@@ -68,7 +68,7 @@
    Permite que as informações do tipo de funcionário assalariado seja manipulada unicamente para esta classe.  
      
    ##### Solução  
-   Soluciona problema de agrupamento dos métodos específicos na superclasse, sendo alguns métodos são incomum.
+   Soluciona problema de agrupamento dos métodos específicos na superclasse, sendo que alguns métodos são incomum.
    
    ##### Vantagem  
    Melhor organização do código;    
@@ -90,7 +90,7 @@
    - usuario;  
    - senha;  
    ##### Motivação  
-   Essa classe é para ter unico tipo que pode acessar o sistema através de login. As informações não devem ficar aberto a todos;
+   Essa classe é para ter único tipo que pode acessar o sistema através de login. As informações não devem ficar aberto a todos;
    
    ##### Vantagem  
    Permite-nos ter mais controle do que será feita no sistema.
@@ -109,7 +109,7 @@
    - cep;  
    - nCasa;  
            
-* A partir daqui implementei o padrão Abstract Factory para cria classes sem especificar a classe concreta;            
+* A partir daqui implementei o padrão Abstract Factory para criar classes sem especificar a classe concreta;            
 ## Classe CriaFuncionario: 
 responsavel pelo assinatura dos método:  
       - criarFuncionario;  
@@ -130,7 +130,7 @@ responsavel pelo assinatura dos método:
    ##### Vantagem  
    Melhor organização do código e só funciona quando é requisitado;
     
-   //Esta classe herda Classe CriaFuncionario e retorna um tipo pessoa  
+ * Esta classe herda Classe CriaFuncionario e retorna um tipo pessoa  
 ## Classe criaGerente:  
       - criarFuncionario e retorna um tipo pessoa;  
    ##### Motivação  
